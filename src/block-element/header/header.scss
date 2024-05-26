@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 27px 60px 0 0;
+    .nav {
+        .ul {
+            display: flex;
+            gap: 33px;
+            .li {
+                .item-link {
+                    font-weight: 500;
+                    font-size: 20px;
+                    transition: .3s;
+                }
+                &:hover{
+                    .item-link{
+                        color: rgb(124, 124, 124);
+                    }
+                }
+            }
+        }
+    }
+
+}

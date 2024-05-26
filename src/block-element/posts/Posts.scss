@@ -1,0 +1,44 @@
+@import "./../../var.scss";
+
+.post {
+    margin-top: 70px;
+    background-color: #edf7fa;
+    padding: 27px 0 32px 0;
+    .post__header {
+        display: flex;
+        justify-content: space-between;
+        .post_all_btn {
+            font-weight: 400;
+            font-size: 16px;
+            color: #00a8cc;
+
+            @include txt_hover(0.3s, #1a4b53);
+        }
+    }
+
+    .item_posts {
+        display: flex;
+        gap: 20px;
+        margin-top: 25px;
+        .post__card {
+            background-color: #fff;
+            padding: 26px 23px;
+
+            .post__inner-card {
+                .card_title {
+                    line-height: 150%;
+                }
+
+                .date_prog {
+                    display: flex;
+                    margin-top: 25px;
+                    margin-bottom: 20px;
+
+                    .line {
+                        margin-inline: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

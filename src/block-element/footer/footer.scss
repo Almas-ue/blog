@@ -1,0 +1,18 @@
+@import "./../../var.scss";
+
+.footer {
+    margin-top: 80px;
+    .footer__block {
+        padding: 52px 0;
+
+        .social_media {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+        }
+
+        .copyright {
+            margin-top: 25px;
+        }
+    }
+}

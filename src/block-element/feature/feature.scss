@@ -1,0 +1,61 @@
+@import "./../../var.scss";
+
+.feature {
+    margin-top: 35px;
+
+    .feature__work {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .item-work {
+            display: flex;
+            gap: 18px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            width: 100%;
+
+            .feature__link {
+                border-radius: 6px;
+                overflow: hidden;
+
+                img {
+                    transition: 0.5s;
+                    &:hover {
+                        scale: 1.05;
+                    }
+                }
+            }
+
+            .item-text {
+                .item_title {
+                    transition: 0.3s;
+                    &:hover {
+                        filter: drop-shadow(0 0 3px);
+                    }
+                }
+
+                .item_desc {
+                    max-width: 560px;
+                }
+
+                .date_prog {
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+                    margin-block: 20px;
+
+                    .year {
+                        padding: 3px 10px;
+                        border-radius: 16px;
+                        background-color: $dark;
+                        color: #fff;
+                        font-weight: 900;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

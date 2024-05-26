@@ -1,0 +1,72 @@
+$prime: #ff6464;
+$second: #00a8cc;
+$dark: #21243d;
+$light: #8695a4;
+
+@mixin btn($back_color, $padd_block, $padd_inline, $bord_radius, $fz, $fw, $color) {
+    background-color: $back_color;
+    padding: $padd_block $padd_inline;
+    border-radius: $bord_radius;
+    font-size: $fz;
+    font-weight: $fw;
+    color: $color;
+}
+
+@mixin btn_hover($time, $back_color, $color) {
+    transition: $time;
+    &:hover {
+        background-color: $back_color;
+        color: $color;
+    }
+}
+
+@mixin txt_hover($time, $color) {
+    transition: $time;
+    &:hover {
+        color: $color;
+    }
+}
+
+.title_h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: $dark;
+}
+
+.title_h3 {
+    color: $dark;
+    font-weight: 700;
+    font-size: 26px;
+    color: $dark;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 22px;
+    color: $dark;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: $dark;
+}
+
+.trans {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695a4;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: $dark;
+}
