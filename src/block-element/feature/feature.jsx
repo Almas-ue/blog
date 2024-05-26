@@ -11,7 +11,7 @@ function Feature() {
             <div className="item-work">
               <a href="#" className="feature__link">
                 <img
-                  src="./../public/feature/dashboard.svg"
+                  src="./public/feature/dashboard.svg"
                   alt="dashboard"
                   className="item-img"
                 />
@@ -34,7 +34,7 @@ function Feature() {
             <div className="item-work">
               <a href="#" className="feature__link">
                 <img
-                  src="./../public/feature/portraits.svg"
+                  src="./public/feature/portraits.svg"
                   alt="portraits"
                   className="item-img"
                 />
@@ -57,7 +57,7 @@ function Feature() {
             <div className="item-work">
               <a href="#" className="feature__link">
                 <img
-                  src="./../public/feature/malayalam.svg"
+                  src="./public/feature/malayalam.svg"
                   alt="malayalam"
                   className="item-img"
                 />

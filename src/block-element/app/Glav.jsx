@@ -20,7 +20,7 @@ function Glav() {
                 </p>
               </div>
               <div className="glav__hero_img">
-                <img src="./../public/glav/glav_img.svg" alt="glav_img" />
+                <img src="./public/glav/glav_img.svg" alt="glav_img" />
               </div>
             </div>
             <div className="glav__footer">
