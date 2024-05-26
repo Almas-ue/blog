@@ -3,5 +3,5 @@ import React from "react";
 
 export default defineConfig({
   plugins: [React()],
-  base: "/bite-react-deploy",
+  base: "/blog/",
 });
